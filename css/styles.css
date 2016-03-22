@@ -20,6 +20,12 @@ html {
   box-sizing: inherit;
 }
 
+.content {
+  max-width: 55rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 /*============================ NAVBAR STYLES ===========================*/
 
@@ -34,9 +40,9 @@ nav {
   height: 4em;
 }
 
-.content {
-  max-width: 60rem;
-  margin: 0 auto;
+#brand-icon {
+  float: left;
+  padding-left: 2em;
 }
 
 #brand-icon img {
@@ -61,6 +67,8 @@ nav {
   text-decoration: none;
   color: #838994;
   padding: .5em;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
   transition: color .3s;
 }
 
@@ -73,5 +81,50 @@ nav {
   color: #333;
 }
 
+/*=========================== Intro Section =========================*/
 
+.introduction {
+  color: white;
+  position: absolute;
+  left: 0;
+  height: 40rem;
+  width: 100%;
+  background: url('../images/first-background.jpg') no-repeat center bottom;
+  background-size: cover;
+}
 
+.introduction h1 {
+  margin-top: 16rem;
+  font-size: 3.25rem;
+}
+
+.introduction h1,
+.introduction h3 {
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.introduction h3 {
+  margin-top: 0.2em;
+}
+
+.buttons {
+  margin-top: 1.3em;
+
+}
+
+.buttons > button {
+  color: white;
+  background-color: #F15B2A;
+  border: none;
+  width: 9rem;
+  border-radius: 4px;
+  padding: 1em 1.5em;
+  -webkit-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.buttons > button:hover {
+  background-color: #d9400e;
+}

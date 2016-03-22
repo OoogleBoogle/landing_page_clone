@@ -1,7 +1,7 @@
 /*======================== DEV STYLES (TO BE DELETED) =======================*/
 
 body {
-  background: #838994;
+  background: white;
 }
 .box-me {
   border: 1px solid #000;
@@ -21,7 +21,7 @@ html {
 }
 
 .content {
-  max-width: 55rem;
+  width: 55rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -127,3 +127,31 @@ button {
 button:hover {
   background-color: #d9400e;
 }
+
+
+/*======================================= Cases ===============================*/
+
+.cases {
+  margin-top: 6em;
+}
+
+.devices {
+  padding: 0;
+  list-style: none;
+}
+
+.devices img {
+  width: 8.16666666667em;
+}
+
+.devices li {
+  display: inline-block;
+  padding-right: 3.2em;
+}
+
+.cases h2,
+.caption h3 {
+  font-weight: 300;
+}
+
+9.16666666667

@@ -3,14 +3,21 @@
 body {
   background: #838994;
 }
-/*div, nav, .box-me {
+.box-me {
   border: 1px solid #000;
 }
-*/
+
 /*=============================== GENERIC ===============================*/
 
-* {
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 
@@ -46,6 +53,7 @@ nav {
 
 #nav-links > li {
   display: inline-block;
+  margin-right: 1em;
   
 }
 
@@ -57,15 +65,10 @@ nav {
 }
 
 #nav-links li.active a {
-  font-weight: bold;
-  color: #333;
-}
-
-/*nav #nav-links > li.active {
   font-weight: 500;
   color: #333;
 }
-*/
+
 #nav-links > li > a:hover {
   color: #333;
 }

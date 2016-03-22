@@ -1,11 +1,74 @@
+/*======================== DEV STYLES (TO BE DELETED) =======================*/
+
 body {
-  background: lightgray;
+  background: #838994;
 }
-div {
+/*div, nav, .box-me {
   border: 1px solid #000;
 }
+*/
+/*=============================== GENERIC ===============================*/
 
-/*=======================================================*/
+* {
+  box-sizing: border-box;
+}
+
+
+/*============================ NAVBAR STYLES ===========================*/
+
+
+nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 4em;
+}
+
+.content {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+#brand-icon img {
+  height: 4rem;
+  width: 1.5em;
+}
+
+#nav-links {
+  list-style: none;
+  float: right;
+  margin: 1.3em 0;
+  padding: 0;
+}
+
+#nav-links > li {
+  display: inline-block;
+  
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: #838994;
+  padding: .5em;
+  transition: color .3s;
+}
+
+#nav-links li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+/*nav #nav-links > li.active {
+  font-weight: 500;
+  color: #333;
+}
+*/
+#nav-links > li > a:hover {
+  color: #333;
+}
 
 
 

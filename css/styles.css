@@ -133,6 +133,7 @@ button:hover {
 
 .cases {
   margin-top: 6em;
+  margin-bottom: 6em;
 }
 
 .devices {
@@ -154,4 +155,45 @@ button:hover {
   font-weight: 300;
 }
 
-9.16666666667
+/*================================= Footer ========================================*/
+
+.social {
+  margin-bottom: 6em;
+}
+
+hr {
+  opacity: .1;
+}
+
+.icons {
+  padding: 0;
+}
+
+.icons li {
+  display: inline-block;
+  padding: 0.7em 0.8em .4em;
+}
+
+.icons i {
+  padding: .5em;
+  border: 1px solid rgba(125,125,125,0.3);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.twitter {
+  color: #55ACEE;
+}
+
+.facebook {
+  color: #4C66A4;
+}
+
+.instagram {
+  color: #9b6954;
+}
+
+.copy {
+  color: #838994;
+  font-size: .9em;
+}

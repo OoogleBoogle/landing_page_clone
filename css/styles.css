@@ -147,7 +147,7 @@ button:hover {
 
 .devices li {
   display: inline-block;
-  padding-right: 3.2em;
+  padding: 0 1em;
 }
 
 .cases h2,

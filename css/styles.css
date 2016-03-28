@@ -189,7 +189,7 @@ html {
   transition: background-color .3s;
 }
 
-.buttons:hover {
+.buttons button:hover {
   background-color: #d9400e;
 }
 
